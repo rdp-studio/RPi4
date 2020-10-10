@@ -1,9 +1,7 @@
 Raspberry Pi 4 UEFI Firmware Images
 ===================================
 
-[![Build status](https://img.shields.io/appveyor/ci/pbatard/RPi4.svg?style=flat-square)](https://ci.appveyor.com/project/pbatard/RPi4)
-[![Github stats](https://img.shields.io/github/downloads/pftf/RPi4/total.svg?style=flat-square)](https://github.com/pftf/RPi4/releases)
-[![Release](https://img.shields.io/github/release-pre/pftf/RPi4?style=flat-square)](https://github.com/pftf/RPi4/releases)
+[![Build status](https://img.shields.io/appveyor/ci/rdp-studio/RPi4.svg?style=flat-square)](https://ci.appveyor.com/project/pbatard/RPi4)
 
 # Summary
 
@@ -83,7 +81,7 @@ card or on a USB drive in `efi/boot/bootaa64.efi`, you can let the UEFI system r
 
 The firmware provided in the zip archive is the `RELEASE` version but you can also find
 a `DEBUG` build of the firmware in the
-[AppVeyor artifacts](https://ci.appveyor.com/project/pbatard/RPi4/build/artifacts).
+[AppVeyor artifacts](https://ci.appveyor.com/project/rdp-studio/rpi4/build/artifacts).
 
 The provided firmwares should be able to auto-detect the UART being used (PL011 or mini
 UART) according to whether `config.txt` contains the relevant overlay or not. The default
@@ -93,8 +91,6 @@ baudrate for serial I/O is `115200` and the console device to use under Linux is
 At the moment, the published firmwares default to enforcing ACPI as well as a 3 GB RAM
 limit, which is done to ensure Linux boot. These settings can be changed by going to
 `Device Manager` &rarr; `Raspberry Pi Configuration` &rarr; `Advanced Configuration`.
-
-Please visit https://rpi4-uefi.dev/ for more information.
 
 # License
 
