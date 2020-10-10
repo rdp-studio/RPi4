@@ -1,7 +1,7 @@
 Raspberry Pi 4 UEFI Firmware Images
 ===================================
 
-[![Build status](https://img.shields.io/appveyor/ci/rdp-studio/RPi4.svg?style=flat-square)](https://ci.appveyor.com/project/pbatard/RPi4)
+[![Build status](https://img.shields.io/appveyor/ci/rdp-studio/RPi4.svg?style=flat-square)](https://ci.appveyor.com/project/rdp-studio/RPi4)
 
 # Summary
 
