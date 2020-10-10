@@ -36,13 +36,3 @@ artifacts:
     name: RELEASE RPi4 UEFI Firmware
   - path: '*.zip'
     name: RPi 4 UEFI Firmware
-
-deploy:
-  release: $(APPVEYOR_REPO_TAG_NAME)
-  description: Raspberry Pi 4 UEFI Firmware $(APPVEYOR_REPO_TAG_NAME)
-  provider: GitHub
-  auth_token:
-    secure: 4469792029224d7f5b263a652cd6eee3f4e8450e
-  artifact: /.*\.zip/
-  draft: false
-  prerelease: false
